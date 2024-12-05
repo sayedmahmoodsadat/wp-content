@@ -4,37 +4,49 @@ body {
 }
 
 header ul .wp-block-navigation__submenu-container {
-    background-color: red !important;
+    background-color: #090c26 !important;
     color: #ccc !important;
-}
-.wp-block-template-part {
-    position: sticky;
-    color: white;
-    top: 0;
-    z-index: 1;
-}
-
-.wp-block-group {
-
 }
 
 header ul li a:hover,
 ul .wp-block-navigation__submenu-container a:hover {
     text-decoration: none;
 }
-custom-logo {
-    width: 1rem;
+
+.wp-block-template-part {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.wp-block-group {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.wp-block-spacer {
+    margin-bottom: -10px;
+}
+
+.custom-logo {
+    width: 4rem;
     border-radius: 0.5rem !important;
 }
 
+.wp-block-post-excerpt__more-link {
+    color: rgb(9, 141, 164);
+    cursor: pointer;
+}
+
+.wp-block-post-excerpt__more-link:hover {
+    color: rgb(11, 181, 211);
+    transition: 0.7s;
+}
+
 img {
-    border-radius: 0.3rem;
+    border-radius: 0.8rem;
 }
 
 footer {
-    background-color: #222;
+    background-color: #101c78;
 }
 
-footer .wp-block-templete-part {
-    background-color: #f71616;
-}
