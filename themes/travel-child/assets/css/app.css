@@ -23,6 +23,11 @@ ul .wp-block-navigation__submenu-container a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
+.wp-block-group p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+}
+
 .wp-block-spacer {
     margin-bottom: -10px;
 }
