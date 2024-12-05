@@ -1,0 +1,27 @@
+body {
+    background-color: #333;
+}
+
+header.wp-block-template-part {
+    position: sticky;
+    top: 20;
+    z-index: 1;
+}
+
+.custom-logo {
+    width: 3rem;
+    border-radius: 0.5rem !important;
+}
+
+img {
+    border-radius: 0.3rem;
+}
+
+footer {
+    background-color: #222;
+}
+
+.quicklinks {
+    background-color: red;
+    color: red;
+}
