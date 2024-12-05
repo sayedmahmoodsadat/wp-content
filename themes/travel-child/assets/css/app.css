@@ -1,15 +1,29 @@
 body {
     background-color: #333;
+    color: aliceblue;
 }
 
-header.wp-block-template-part {
+header ul .wp-block-navigation__submenu-container {
+    background-color: red !important;
+    color: #ccc !important;
+}
+.wp-block-template-part {
     position: sticky;
-    top: 20;
+    color: white;
+    top: 0;
     z-index: 1;
 }
 
-.custom-logo {
-    width: 3rem;
+.wp-block-group {
+
+}
+
+header ul li a:hover,
+ul .wp-block-navigation__submenu-container a:hover {
+    text-decoration: none;
+}
+custom-logo {
+    width: 1rem;
     border-radius: 0.5rem !important;
 }
 
@@ -21,7 +35,6 @@ footer {
     background-color: #222;
 }
 
-.quicklinks {
-    background-color: red;
-    color: red;
+footer .wp-block-templete-part {
+    background-color: #f71616;
 }
